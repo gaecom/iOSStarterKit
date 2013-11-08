@@ -10,5 +10,5 @@
 @interface PIDetailViewController : UIViewController
 @property(strong, nonatomic) UIViewController *viewController;
 
-- (id)setImage:(UIImage *)image withColor:(UIColor *)color withIndex:(int)idx;
+- (id)setImage:(UIImage *)image withIndex:(int)idx;
 @end
