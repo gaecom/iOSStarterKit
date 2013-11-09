@@ -16,11 +16,12 @@
 		BE49E6675725005A567AF1E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE49EFC6EB4DE814FB223B25 /* main.m */; };
 		BE49E703CC782C9AEC8FB64C /* PIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE49EABA9D48F72A6A755316 /* PIAppDelegate.m */; };
 		BE49E72D18E4FF71460D6CA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE49E03DD082CD77FF2D05BA /* CoreGraphics.framework */; };
-		BE49EB30DA64E72262270067 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE49EE215C6438206A873E13 /* Main.storyboard */; };
+		BE49EA6BE43B365FAB309DBF /* PIDiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE49EFFC2177D774E40D973A /* PIDiscoveryViewController.m */; };
 		BE49EB614F30E32CE3AD09BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE49EFE1DB0F7DF369CA4F33 /* Images.xcassets */; };
 		BE49ED9A05766C3FE20DC967 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE49E8F89FE0893FE0612516 /* InfoPlist.strings */; };
 		BE49EE0C3BA751539E074852 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE49E0B4262D7407D68CD50F /* Foundation.framework */; };
 		BE49EF45FA28830A0B321674 /* tabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE49E444BC7785AE507C7DB9 /* tabBarControllerTests.m */; };
+		BE49EFF3880059F401BBAD3D /* PIMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE49E6C136E66AA464F1AD69 /* PIMusicViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,18 +42,21 @@
 		BE49E32F2E05711DC9AA48A4 /* tabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE49E3A894FEAE6DB2106725 /* tabBarControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "tabBarControllerTests-Info.plist"; sourceTree = "<group>"; };
 		BE49E444BC7785AE507C7DB9 /* tabBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tabBarControllerTests.m; sourceTree = "<group>"; };
+		BE49E547C55E355D840AAD81 /* PIMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIMusicViewController.h; sourceTree = "<group>"; };
 		BE49E5628F64C9826608A659 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BE49E5EDE9690039E324E8E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BE49E64C6AD267AEE9EFB2D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE49E6C136E66AA464F1AD69 /* PIMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIMusicViewController.m; sourceTree = "<group>"; };
 		BE49E80F1831571C4D28B326 /* tabBarController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tabBarController-Prefix.pch"; sourceTree = "<group>"; };
+		BE49E8CFAB7884B52BBC5940 /* PIDiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIDiscoveryViewController.h; sourceTree = "<group>"; };
 		BE49EA8C152EDBD2C86334B1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		BE49EABA9D48F72A6A755316 /* PIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PIAppDelegate.m; sourceTree = "<group>"; };
-		BE49EB4E3C00D8D64E135B1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE49EB9CC8A273629B89CFB4 /* tabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE49EDD69375A4105C3E5900 /* PIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PIViewController.m; sourceTree = "<group>"; };
 		BE49EE96E6147BB6A49B7A72 /* PIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PIAppDelegate.h; sourceTree = "<group>"; };
 		BE49EFC6EB4DE814FB223B25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BE49EFE1DB0F7DF369CA4F33 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE49EFFC2177D774E40D973A /* PIDiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIDiscoveryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,9 +149,12 @@
 				BE49EE96E6147BB6A49B7A72 /* PIAppDelegate.h */,
 				BE49EABA9D48F72A6A755316 /* PIAppDelegate.m */,
 				BE49EFE1DB0F7DF369CA4F33 /* Images.xcassets */,
-				BE49EE215C6438206A873E13 /* Main.storyboard */,
 				BE49E1EFFA2C39EC3E503A35 /* PIViewController.h */,
 				BE49EDD69375A4105C3E5900 /* PIViewController.m */,
+				BE49EFFC2177D774E40D973A /* PIDiscoveryViewController.m */,
+				BE49E8CFAB7884B52BBC5940 /* PIDiscoveryViewController.h */,
+				BE49E6C136E66AA464F1AD69 /* PIMusicViewController.m */,
+				BE49E547C55E355D840AAD81 /* PIMusicViewController.h */,
 			);
 			path = tabBarController;
 			sourceTree = "<group>";
@@ -231,7 +238,6 @@
 			files = (
 				BE49ED9A05766C3FE20DC967 /* InfoPlist.strings in Resources */,
 				BE49EB614F30E32CE3AD09BF /* Images.xcassets in Resources */,
-				BE49EB30DA64E72262270067 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +251,8 @@
 				BE49E6675725005A567AF1E0 /* main.m in Sources */,
 				BE49E703CC782C9AEC8FB64C /* PIAppDelegate.m in Sources */,
 				BE49E074F725C922A942A2F6 /* PIViewController.m in Sources */,
+				BE49EA6BE43B365FAB309DBF /* PIDiscoveryViewController.m in Sources */,
+				BE49EFF3880059F401BBAD3D /* PIMusicViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,14 +291,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		BE49EE215C6438206A873E13 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE49EB4E3C00D8D64E135B1E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -302,6 +302,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tabBarController/tabBarController-Prefix.pch";
 				INFOPLIST_FILE = "tabBarController/tabBarController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -387,6 +388,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tabBarController/tabBarController-Prefix.pch";
 				INFOPLIST_FILE = "tabBarController/tabBarController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -432,6 +434,7 @@
 				BE49EC60FB7ACBA32488A77E /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE49EACB88CDF6D678DDB369 /* Build configuration list for PBXProject "tabBarController" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +452,7 @@
 				BE49E0049FFAEBA7007B5DC1 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

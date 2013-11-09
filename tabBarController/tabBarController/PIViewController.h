@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PIViewController : UIViewController
-
+@interface PIViewController : UIViewController <UITabBarControllerDelegate>
+@property(strong, nonatomic) UITabBarController *tabBarController;
 @end
