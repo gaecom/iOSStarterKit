@@ -20,12 +20,21 @@
     [super viewDidLoad];
     self.tabBarController = [[UITabBarController alloc] init];
     self.tabBarController.delegate = self;
-    PIDiscoveryViewController *discoveryViewController = [[PIDiscoveryViewController alloc] initWithNibName:nil bundle:nil];
-    PIMusicViewController *musicViewController = [[PIMusicViewController alloc] initWithNibName:nil bundle:nil];
+    PIDiscoveryViewController *discoveryViewController = [[PIDiscoveryViewController alloc] init];
+    discoveryViewController.tabBarItem.title = @"Discovery";
+    discoveryViewController.tabBarItem.image = [UIImage imageNamed:@"TabBar_Assets.png"];
 
-    self.tabBarController.viewControllers = [NSArray arrayWithObjects:
+    PIMusicViewController *musicViewController = [[PIMusicViewController alloc] init];
+    musicViewController.tabBarItem.title = @"Music";
+    musicViewController.tabBarItem.image = [UIImage imageNamed:@"TabBar_Bill.png"];
+    // 设置有几个 Tab
+    self.tabBarController.viewControllers = @[
             musicViewController,
-            discoveryViewController, nil];
+            discoveryViewController
+    ];
+    // 必须设置一个默认 tab,否则显示不正确.
+    self.tabBarController.selectedViewController = musicViewController;
+    self.tabBarController.selectedIndex = 0;
 
     [self.view addSubview:self.tabBarController.view];
 
@@ -33,7 +42,7 @@
 }
 
 - (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController {
-    NSLog(@"didSelectViewController");
+    //NSLog(@"didSelectViewController");
 }
 
 - (void)didReceiveMemoryWarning {

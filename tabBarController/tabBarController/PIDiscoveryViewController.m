@@ -10,10 +10,19 @@
 @implementation PIDiscoveryViewController {
 
 }
+
+- (id) init{
+    self = [super init];
+    if (!self){
+        return nil;
+    }
+
+    return self ;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"PIDiscoveryViewController:viewDidLoad");
-    self.tabBarItem.title = @"Discovery";
     UITextField *textField = [[UITextField alloc] initWithFrame:CGRectMake(100, 100, 100, 40)];
     textField.borderStyle = UITextBorderStyleBezel;
     textField.placeholder =@"placeholder";

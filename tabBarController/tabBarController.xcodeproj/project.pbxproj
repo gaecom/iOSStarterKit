@@ -12,15 +12,20 @@
 		BE49E07A9AD5B49CD083006A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE49EA8C152EDBD2C86334B1 /* XCTest.framework */; };
 		BE49E1459D20CF6C26365DF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE49E5AC72219A1DF558D4EF /* InfoPlist.strings */; };
 		BE49E16DE998448391B675E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE49E5EDE9690039E324E8E3 /* UIKit.framework */; };
+		BE49E23753EDB15995AED13D /* TabBar_Assets@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE49E13BCB823AD49A3C441B /* TabBar_Assets@2x.png */; };
 		BE49E2ABEFE6AF587D6715C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE49E0B4262D7407D68CD50F /* Foundation.framework */; };
 		BE49E6675725005A567AF1E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE49EFC6EB4DE814FB223B25 /* main.m */; };
 		BE49E703CC782C9AEC8FB64C /* PIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE49EABA9D48F72A6A755316 /* PIAppDelegate.m */; };
 		BE49E72D18E4FF71460D6CA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE49E03DD082CD77FF2D05BA /* CoreGraphics.framework */; };
+		BE49E7D1ED0AD55C2C026C8A /* subViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE49ED447F52C3CCCB8B388E /* subViewController.m */; };
 		BE49EA6BE43B365FAB309DBF /* PIDiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE49EFFC2177D774E40D973A /* PIDiscoveryViewController.m */; };
 		BE49EB614F30E32CE3AD09BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE49EFE1DB0F7DF369CA4F33 /* Images.xcassets */; };
+		BE49EBF460C6FBE7F9899444 /* TabBar_Home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE49E1C9B2AD00A208DA60D3 /* TabBar_Home@2x.png */; };
 		BE49ED9A05766C3FE20DC967 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE49E8F89FE0893FE0612516 /* InfoPlist.strings */; };
 		BE49EE0C3BA751539E074852 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE49E0B4262D7407D68CD50F /* Foundation.framework */; };
+		BE49EF15DB11E577E4415EF0 /* TabBar_Security@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE49E091381091828227A12A /* TabBar_Security@2x.png */; };
 		BE49EF45FA28830A0B321674 /* tabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE49E444BC7785AE507C7DB9 /* tabBarControllerTests.m */; };
+		BE49EF5B4D6CF433FABE4A5A /* TabBar_Bill@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE49EDE7010071D8C0DABC8B /* TabBar_Bill@2x.png */; };
 		BE49EFF3880059F401BBAD3D /* PIMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE49E6C136E66AA464F1AD69 /* PIMusicViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -36,9 +41,13 @@
 
 /* Begin PBXFileReference section */
 		BE49E03DD082CD77FF2D05BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE49E091381091828227A12A /* TabBar_Security@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_Security@2x.png"; sourceTree = "<group>"; };
 		BE49E0B4262D7407D68CD50F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BE49E0CE4869911E728549E5 /* tabBarController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "tabBarController-Info.plist"; sourceTree = "<group>"; };
+		BE49E13BCB823AD49A3C441B /* TabBar_Assets@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_Assets@2x.png"; sourceTree = "<group>"; };
+		BE49E1C9B2AD00A208DA60D3 /* TabBar_Home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_Home@2x.png"; sourceTree = "<group>"; };
 		BE49E1EFFA2C39EC3E503A35 /* PIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PIViewController.h; sourceTree = "<group>"; };
+		BE49E3091E95D3D8ACA7489A /* subViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subViewController.h; sourceTree = "<group>"; };
 		BE49E32F2E05711DC9AA48A4 /* tabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE49E3A894FEAE6DB2106725 /* tabBarControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "tabBarControllerTests-Info.plist"; sourceTree = "<group>"; };
 		BE49E444BC7785AE507C7DB9 /* tabBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tabBarControllerTests.m; sourceTree = "<group>"; };
@@ -52,7 +61,9 @@
 		BE49EA8C152EDBD2C86334B1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		BE49EABA9D48F72A6A755316 /* PIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PIAppDelegate.m; sourceTree = "<group>"; };
 		BE49EB9CC8A273629B89CFB4 /* tabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE49ED447F52C3CCCB8B388E /* subViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subViewController.m; sourceTree = "<group>"; };
 		BE49EDD69375A4105C3E5900 /* PIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PIViewController.m; sourceTree = "<group>"; };
+		BE49EDE7010071D8C0DABC8B /* TabBar_Bill@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBar_Bill@2x.png"; sourceTree = "<group>"; };
 		BE49EE96E6147BB6A49B7A72 /* PIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PIAppDelegate.h; sourceTree = "<group>"; };
 		BE49EFC6EB4DE814FB223B25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BE49EFE1DB0F7DF369CA4F33 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -83,6 +94,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE49E2C07A94FB4CF3779FA1 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				BE49E13BCB823AD49A3C441B /* TabBar_Assets@2x.png */,
+				BE49E091381091828227A12A /* TabBar_Security@2x.png */,
+				BE49EDE7010071D8C0DABC8B /* TabBar_Bill@2x.png */,
+				BE49E1C9B2AD00A208DA60D3 /* TabBar_Home@2x.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
 		BE49E35A9F2CAC7ECA720818 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +177,9 @@
 				BE49E8CFAB7884B52BBC5940 /* PIDiscoveryViewController.h */,
 				BE49E6C136E66AA464F1AD69 /* PIMusicViewController.m */,
 				BE49E547C55E355D840AAD81 /* PIMusicViewController.h */,
+				BE49ED447F52C3CCCB8B388E /* subViewController.m */,
+				BE49E3091E95D3D8ACA7489A /* subViewController.h */,
+				BE49E2C07A94FB4CF3779FA1 /* assets */,
 			);
 			path = tabBarController;
 			sourceTree = "<group>";
@@ -238,6 +263,10 @@
 			files = (
 				BE49ED9A05766C3FE20DC967 /* InfoPlist.strings in Resources */,
 				BE49EB614F30E32CE3AD09BF /* Images.xcassets in Resources */,
+				BE49E23753EDB15995AED13D /* TabBar_Assets@2x.png in Resources */,
+				BE49EF15DB11E577E4415EF0 /* TabBar_Security@2x.png in Resources */,
+				BE49EF5B4D6CF433FABE4A5A /* TabBar_Bill@2x.png in Resources */,
+				BE49EBF460C6FBE7F9899444 /* TabBar_Home@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +282,7 @@
 				BE49E074F725C922A942A2F6 /* PIViewController.m in Sources */,
 				BE49EA6BE43B365FAB309DBF /* PIDiscoveryViewController.m in Sources */,
 				BE49EFF3880059F401BBAD3D /* PIMusicViewController.m in Sources */,
+				BE49E7D1ED0AD55C2C026C8A /* subViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
