@@ -32,9 +32,9 @@
             musicViewController,
             discoveryViewController
     ];
-    // 必须设置一个默认 tab,否则显示不正确.
-    self.tabBarController.selectedViewController = musicViewController;
-    self.tabBarController.selectedIndex = 0;
+    // 可以默认设置选中的 tab
+    //self.tabBarController.selectedViewController = musicViewController;
+    self.tabBarController.selectedIndex = 1;
 
     [self.view addSubview:self.tabBarController.view];
 
