@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface PIViewController : UIViewController
-
+@property (strong, nonatomic) UILabel *asyncLabel;
 @end

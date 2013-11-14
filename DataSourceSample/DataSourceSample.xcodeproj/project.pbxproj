@@ -15,12 +15,13 @@
 		BE49E1C087FDE34CD66A5F59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE49E9BE28235C4FD6D31DC4 /* UIKit.framework */; };
 		BE49E4C34F35216FE4460BAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE49EBE9FC54B92A1E32FA08 /* Foundation.framework */; };
 		BE49E5DF4AA8A12224122ACF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE49EA5E044D3DBD5EBD5DC6 /* InfoPlist.strings */; };
+		BE49E6164420492AB64E8F2B /* data.xml in Resources */ = {isa = PBXBuildFile; fileRef = BE49E87295E3F51A2F68C845 /* data.xml */; };
 		BE49E6B2F6F1655197608111 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE49EBE9FC54B92A1E32FA08 /* Foundation.framework */; };
 		BE49E9B6CC1CD268D273FA6B /* PIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE49E77E3DE8BBC5551C3C73 /* PIViewController.m */; };
 		BE49EB261E01BE2E45BF729E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE49EE7275A20DB07C50C887 /* main.m */; };
 		BE49EB7B4CE9846547F3E723 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE49ED376EC6C5D387DFD609 /* XCTest.framework */; };
 		BE49EE4115A766A235B8789E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE49E36944F32FC6E3DA7CE4 /* Images.xcassets */; };
-		BE49EF22C6F9C0E42CE08F90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE49ECF9985B4BAF2312F9CA /* Main.storyboard */; };
+		BE49EFAB76BBF81596CD5207 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = BE49E776214262390C8CE60A /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,17 +40,16 @@
 		BE49E36944F32FC6E3DA7CE4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BE49E462E402A7D4AF4BFCC6 /* PIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PIAppDelegate.m; sourceTree = "<group>"; };
 		BE49E526655921D848D87A87 /* DataSourceSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataSourceSampleTests.m; sourceTree = "<group>"; };
-		BE49E55FD232A8F499578202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE49E572A25A375367F31ED4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BE49E5C67E65470FEF80140D /* PIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PIViewController.h; sourceTree = "<group>"; };
+		BE49E776214262390C8CE60A /* data.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = data.json; sourceTree = "<group>"; };
 		BE49E77E3DE8BBC5551C3C73 /* PIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PIViewController.m; sourceTree = "<group>"; };
 		BE49E7A9434684BD9DE7B692 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE49E87295E3F51A2F68C845 /* data.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = data.xml; sourceTree = "<group>"; };
 		BE49E9BE28235C4FD6D31DC4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		BE49EA5E92B8CFA5CDF642DD /* DataSourceSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataSourceSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE49EA70B3FCE444143D7904 /* DataSourceSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DataSourceSample-Prefix.pch"; sourceTree = "<group>"; };
 		BE49EBE9FC54B92A1E32FA08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BE49ED376EC6C5D387DFD609 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		BE49EE5CCC3A10F06DB78DD2 /* DataSourceSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataSourceSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE49EE7275A20DB07C50C887 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BE49EF45BFAA436552E574EB /* DataSourceSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "DataSourceSampleTests-Info.plist"; sourceTree = "<group>"; };
 		BE49EFADFB8B0E79CF6AFC6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -102,8 +102,6 @@
 		BE49E6DD42C32ABCECD16B4C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BE49EA5E92B8CFA5CDF642DD /* DataSourceSample.app */,
-				BE49EE5CCC3A10F06DB78DD2 /* DataSourceSampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,9 +124,10 @@
 				BE49E02152C0A3A47CCF3813 /* PIAppDelegate.h */,
 				BE49E462E402A7D4AF4BFCC6 /* PIAppDelegate.m */,
 				BE49E36944F32FC6E3DA7CE4 /* Images.xcassets */,
-				BE49ECF9985B4BAF2312F9CA /* Main.storyboard */,
 				BE49E5C67E65470FEF80140D /* PIViewController.h */,
 				BE49E77E3DE8BBC5551C3C73 /* PIViewController.m */,
+				BE49E776214262390C8CE60A /* data.json */,
+				BE49E87295E3F51A2F68C845 /* data.xml */,
 			);
 			path = DataSourceSample;
 			sourceTree = "<group>";
@@ -169,7 +168,6 @@
 			);
 			name = DataSourceSample;
 			productName = DataSourceSample;
-			productReference = BE49EA5E92B8CFA5CDF642DD /* DataSourceSample.app */;
 			productType = "com.apple.product-type.application";
 		};
 		BE49E923DF573A06576A4D54 /* DataSourceSampleTests */ = {
@@ -187,7 +185,6 @@
 			);
 			name = DataSourceSampleTests;
 			productName = DataSourceSampleTests;
-			productReference = BE49EE5CCC3A10F06DB78DD2 /* DataSourceSampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -223,7 +220,8 @@
 			files = (
 				BE49E12A58EC13BDE55DA72D /* InfoPlist.strings in Resources */,
 				BE49EE4115A766A235B8789E /* Images.xcassets in Resources */,
-				BE49EF22C6F9C0E42CE08F90 /* Main.storyboard in Resources */,
+				BE49EFAB76BBF81596CD5207 /* data.json in Resources */,
+				BE49E6164420492AB64E8F2B /* data.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +279,6 @@
 				BE49EFADFB8B0E79CF6AFC6B /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		BE49ECF9985B4BAF2312F9CA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE49E55FD232A8F499578202 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
